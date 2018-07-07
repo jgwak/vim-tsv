@@ -6,6 +6,7 @@ set shiftwidth=0
 " +python3 version
 function! g:TsvDetectTabStop()
 python3 << EOF
+import vim
 lines = vim.current.buffer[:]
 cells = [cell for line in lines for cell in line.split('\t')]
 max_cell_width = 0
