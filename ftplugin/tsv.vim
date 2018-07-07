@@ -1,6 +1,4 @@
 set nowrap
-set listchars=eol:\ ,tab:»-,trail:·,precedes:…,extends:…,nbsp:‗
-set list
 set noexpandtab
 set softtabstop=0
 set shiftwidth=0
